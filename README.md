@@ -15,7 +15,7 @@ pip install -r requirements.txt
 !pip install roboflow
 
 from roboflow import Roboflow
-rf = Roboflow(api_key="IzDI0ZkIKq8oBAFQ7Tgl")
+rf = Roboflow(api_key="<KEY>")
 project = rf.workspace("yolo-sxtmz").project("teeth-gzkv1")
 version = project.version(12)
 dataset = version.download("yolov7")
